@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="dash">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Health Dash</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script type='text/javascript' src="js/jquery.min.js"></script>
+    <script src="js/angular.js"></script>
+    <script src="js/angular-route.js"></script>
+    <script src="js/app.js"></script>
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+
+</head>
+
+<body ng-controller="UserCtrl">
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <h1>Health Dash</h1>
+            <h3>Measure your life</h3>
+            <br>
+            <div class="row">
+              <div class="col-md-4"></div>
+              <div class="col-md-4">
+              <form class="form-signin" role="form" ng-submit="sendUser()">
+                <label for="inputEmail" class="sr-only">Email address</label>
+                <input id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="" type="email" ng-model="formData.email">
+                <label for="inputPassword" class="sr-only">Password</label>
+                <input id="inputPassword" class="form-control" placeholder="Password" required="" type="password">
+                <div class="checkbox">
+                  <label>
+                    <input value="remember-me" type="checkbox"> Remember me
+                  </label>
+                </div>
+                <button id="submit-btn" class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+              </form>
+          </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Health Dash will help you collect all your health data in one place!</h2>
+                    <p class="lead">Connect all your apps and devices to monitor your health in one place and to stay healthy.</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Services -->
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+    <section id="services" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-medkit fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Monitor Your Health</strong>
+                                </h4>
+                                <p>All your health data from your wearables to your apps shows up in one place.</p>
+                            </div>
+                        </div>
+                         <div class="col-md-4 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-bar-chart-o fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Analyze Your Data</strong>
+                                </h4>
+                                <p>Use our tools to examine your data and make sense of it.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-smile-o fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Get Feedback</strong>
+                                </h4>
+                                <p>Know how you're doing so that you can keep getting better and stay in tip-top shape.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Callout -->
+    <aside class="callout">
+        <div class="text-vertical-center">
+            <h1>Get Started Now!</h1>
+        </div>
+    </aside>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <p class="text-muted">Copyright &copy; 2014</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

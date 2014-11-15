@@ -1,0 +1,10 @@
+[
+  {
+    "description": "Your blood glucose level is high!",
+    "level": 3
+  },
+  {
+    "description": "Your movement was average today.",
+    "level": 2
+  }
+]

@@ -1,0 +1,26 @@
+{
+	"monitor":1,
+	"summaryPoint": 196,
+	"summaryMeal": "post",
+	"dates":[
+		"Nov 9","Nov 10", "Nov 11", "Nov 12", "Nov 13", "Nov 14", "Nov 15"
+	],
+	"breakfastPre":[
+		80,82,95,115,79,97,84
+	],
+	"lunchPre":[
+		79,97,82,95,127,110,86
+	],
+	"dinnerPre":[
+		95,82,79,86,90,100
+	],
+	"breakfastPost":[
+		126,140,135,154,169,137,124
+	],
+	"lunchPost":[
+		156,134,165,151,140,172,196
+	],
+	"dinnerPost":[
+		124,169,143,139,127,153
+	]
+}

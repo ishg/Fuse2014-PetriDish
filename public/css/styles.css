@@ -1,0 +1,39 @@
+body{
+	margin-top:70px;
+	background-color:#eee;
+}
+
+nav{
+	height: 70px;
+}
+
+.full-width{
+	width:100%;
+}
+
+.module {
+	height: 350px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	background-color: #D8D8D8;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#header {
+	margin-bottom: 25px;
+	margin-top:25px;
+}
+
+.module.over {
+  margin-top: 50px;
+}
+
+#siteContainer {
+	opacity: 0;
+   transition: opacity 1s ease-in-out;
+   -moz-transition: opacity 1s ease-in-out;
+   -webkit-transition: opacity 1s ease-in-out;
+}
