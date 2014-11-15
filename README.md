@@ -1,7 +1,7 @@
-Fuse2014-SegFault
+HealthDash
 =================
 
-HealthDash application dashboard for aggregation of health data from wearables, apps, and services. 
+Web application dashboard for aggregation of health data from wearables, apps, and services. 
 
 Authors
 -------
